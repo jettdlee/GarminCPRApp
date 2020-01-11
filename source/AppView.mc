@@ -1,14 +1,17 @@
 using Toybox.WatchUi;
 
-class cpr_appView extends WatchUi.View {
+class AppView extends WatchUi.View {
 
     function initialize() {
+    	System.println("Initialize view");
         View.initialize();
     }
 
     // Load your resources here
     function onLayout(dc) {
-        setLayout(Rez.Layouts.MainLayout(dc));
+    	System.println("dc: "+dc);
+    	var mainLayout = Rez.Layouts.MainLayout(dc);
+        setLayout(mainLayout);
     }
 
     // Called when this View is brought to the foreground. Restore

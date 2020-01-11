@@ -1,53 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="4" lineNum="10" pc="268435479" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="4" lineNum="11" pc="268435483" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="5" lineNum="17" pc="268435521" symbol="onShow"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="6" lineNum="21" pc="268435526" symbol="onUpdate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="6" lineNum="23" pc="268435530" symbol="onUpdate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appView.mc" id="7" lineNum="29" pc="268435551" symbol="onHide"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appDelegate.mc" id="9" lineNum="5" pc="268435556" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appDelegate.mc" id="9" lineNum="6" pc="268435560" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appDelegate.mc" id="10" lineNum="9" pc="268435579" symbol="onMenu"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appDelegate.mc" id="10" lineNum="10" pc="268435583" symbol="onMenu"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appDelegate.mc" id="10" lineNum="11" pc="268435667" symbol="onMenu"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="12" lineNum="6" pc="268435671" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="12" lineNum="7" pc="268435675" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="13" lineNum="10" pc="268435694" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="13" lineNum="11" pc="268435698" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="13" lineNum="12" pc="268435709" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="13" lineNum="13" pc="268435733" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appMenuDelegate.mc" id="13" lineNum="14" pc="268435744" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="15" lineNum="6" pc="268435769" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="15" lineNum="7" pc="268435773" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="15" lineNum="8" pc="268435796" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="16" lineNum="12" pc="268435815" symbol="onStart"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="16" lineNum="13" pc="268435819" symbol="onStart"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="17" lineNum="17" pc="268435843" symbol="onStop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="17" lineNum="18" pc="268435847" symbol="onStop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="18" lineNum="22" pc="268435871" symbol="getInitialView"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="18" lineNum="23" pc="268435875" symbol="getInitialView"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\cpr_appApp.mc" id="18" lineNum="24" pc="268435898" symbol="getInitialView"/>
-<entry filename="Rez" id="24" lineNum="16" pc="268435966" symbol="MainLayout"/>
-<entry filename="Rez" id="24" lineNum="18" pc="268435978" symbol="MainLayout"/>
-<entry filename="Rez" id="24" lineNum="20" pc="268435991" symbol="MainLayout"/>
-<entry filename="Rez" id="24" lineNum="21" pc="268436146" symbol="MainLayout"/>
-<entry filename="Rez" id="24" lineNum="22" pc="268436258" symbol="MainLayout"/>
-<entry filename="Rez" id="24" lineNum="24" pc="268436295" symbol="MainLayout"/>
-<entry filename="Rez" id="27" lineNum="37" pc="268436323" symbol="initialize"/>
-<entry filename="Rez" id="27" lineNum="38" pc="268436327" symbol="initialize"/>
-<entry filename="Rez" id="27" lineNum="39" pc="268436345" symbol="initialize"/>
-<entry filename="Rez" id="27" lineNum="40" pc="268436401" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="3" lineNum="5" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="3" lineNum="6" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="3" lineNum="7" pc="268435483" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="4" lineNum="11" pc="268435502" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="4" lineNum="12" pc="268435506" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="4" lineNum="13" pc="268435532" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="4" lineNum="14" pc="268435559" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="5" lineNum="20" pc="268435574" symbol="onShow"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="6" lineNum="24" pc="268435579" symbol="onUpdate"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="6" lineNum="26" pc="268435583" symbol="onUpdate"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppView.mc" id="7" lineNum="32" pc="268435604" symbol="onHide"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="9" lineNum="6" pc="268435609" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="9" lineNum="7" pc="268435613" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="10" lineNum="10" pc="268435632" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="10" lineNum="11" pc="268435636" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="10" lineNum="12" pc="268435647" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="10" lineNum="13" pc="268435671" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppMenuDelegate.mc" id="10" lineNum="14" pc="268435682" symbol="onMenuItem"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="12" lineNum="6" pc="268435707" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="12" lineNum="7" pc="268435711" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="12" lineNum="8" pc="268435734" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="13" lineNum="12" pc="268435753" symbol="onStart"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="13" lineNum="13" pc="268435757" symbol="onStart"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="13" lineNum="14" pc="268435780" symbol="onStart"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="14" lineNum="18" pc="268435807" symbol="onStop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="14" lineNum="19" pc="268435811" symbol="onStop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="14" lineNum="20" pc="268435834" symbol="onStop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="15" lineNum="24" pc="268435861" symbol="getInitialView"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="15" lineNum="25" pc="268435865" symbol="getInitialView"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="15" lineNum="26" pc="268435888" symbol="getInitialView"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="15" lineNum="27" pc="268435912" symbol="getInitialView"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="15" lineNum="29" pc="268435936" symbol="getInitialView"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppDelegate.mc" id="17" lineNum="5" pc="268435964" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppDelegate.mc" id="17" lineNum="6" pc="268435968" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppDelegate.mc" id="18" lineNum="9" pc="268435987" symbol="onMenu"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppDelegate.mc" id="18" lineNum="11" pc="268435991" symbol="onMenu"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\AppDelegate.mc" id="18" lineNum="12" pc="268436075" symbol="onMenu"/>
+<entry filename="Rez" id="24" lineNum="16" pc="268436079" symbol="MainLayout"/>
+<entry filename="Rez" id="24" lineNum="18" pc="268436091" symbol="MainLayout"/>
+<entry filename="Rez" id="24" lineNum="19" pc="268436243" symbol="MainLayout"/>
+<entry filename="Rez" id="24" lineNum="20" pc="268436355" symbol="MainLayout"/>
+<entry filename="Rez" id="24" lineNum="22" pc="268436395" symbol="MainLayout"/>
+<entry filename="Rez" id="27" lineNum="35" pc="268436423" symbol="initialize"/>
+<entry filename="Rez" id="27" lineNum="36" pc="268436427" symbol="initialize"/>
+<entry filename="Rez" id="27" lineNum="37" pc="268436445" symbol="initialize"/>
+<entry filename="Rez" id="27" lineNum="38" pc="268436501" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388644" module="true" symbol="System"/>
-<entry id="11" object="true" symbol="cpr_appMenuDelegate"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="12" object="true" symbol="AppDelegate"/>
 <entry id="17" object="true" symbol="MainMenu"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
@@ -55,9 +61,10 @@
 <entry id="18" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry id="9" object="true" symbol="cpr_appView"/>
+<entry id="9" object="true" symbol="AppView"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="22" symbol="AppName"/>
+<entry id="11" object="true" symbol="CprAppMain"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry id="24" symbol="item_2"/>
 <entry id="23" symbol="item_1"/>
@@ -66,7 +73,6 @@
 <entry field="true" id="19" symbol="menu_label_1"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="10" object="true" symbol="cpr_appDelegate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
@@ -75,7 +81,6 @@
 <entry field="true" id="15" symbol="id_monkey"/>
 <entry id="8389348" symbol="font"/>
 <entry id="8389347" symbol="color"/>
-<entry id="12" object="true" symbol="cpr_appApp"/>
 <entry id="8389109" method="true" symbol="onMenuItem"/>
 <entry id="13" module="true" symbol="Layouts"/>
 <entry field="true" id="21" symbol="prompt"/>
@@ -86,78 +91,81 @@
 <entry field="true" id="8389063" symbol="identifier"/>
 <entry id="14" module="true" symbol="Menus"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="10" object="true" symbol="AppMenuDelegate"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435521" name="dc" stackId="1" startPc="268435479"/>
-<entry endPc="268435551" name="dc" stackId="1" startPc="268435526"/>
-<entry endPc="268435769" name="item" stackId="1" startPc="268435694"/>
-<entry endPc="268435843" name="state" stackId="1" startPc="268435815"/>
-<entry endPc="268435871" name="state" stackId="1" startPc="268435843"/>
-<entry endPc="268436322" name="rez_cmp_local_text_6714801717" stackId="3" startPc="268435978"/>
-<entry endPc="268436322" name="rez_cmp_local_var_dc_getWidth" stackId="2" startPc="268435978"/>
-<entry endPc="268436322" name="rez_cmp_local_bitmap_id_monkey" stackId="4" startPc="268435978"/>
-<entry endPc="268436323" name="dc" stackId="1" startPc="268435966"/>
+<entry endPc="268435573" name="mainLayout" stackId="2" startPc="268435506"/>
+<entry endPc="268435574" name="dc" stackId="1" startPc="268435502"/>
+<entry endPc="268435604" name="dc" stackId="1" startPc="268435579"/>
+<entry endPc="268435707" name="item" stackId="1" startPc="268435632"/>
+<entry endPc="268435807" name="state" stackId="1" startPc="268435753"/>
+<entry endPc="268435861" name="state" stackId="1" startPc="268435807"/>
+<entry endPc="268435963" name="appDelegate" stackId="2" startPc="268435865"/>
+<entry endPc="268435963" name="appView" stackId="1" startPc="268435865"/>
+<entry endPc="268436422" name="rez_cmp_local_text_1861806005" stackId="2" startPc="268436091"/>
+<entry endPc="268436422" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436091"/>
+<entry endPc="268436423" name="dc" stackId="1" startPc="268436079"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="198" parentId="globals" symbolId="cpr_appApp" type="class"/>
-<dataEntry offset="269" parentId="globals" symbolId="cpr_appDelegate" type="class"/>
-<dataEntry offset="324" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="403" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="450" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="489" parentId="Menus" symbolId="MainMenu" type="class"/>
-<dataEntry offset="536" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="567" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="606" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="637" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="700" parentId="globals" symbolId="cpr_appView" type="class"/>
-<dataEntry offset="779" parentId="globals" symbolId="cpr_appMenuDelegate" type="class"/>
+<dataEntry offset="198" parentId="globals" symbolId="AppMenuDelegate" type="class"/>
+<dataEntry offset="253" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="332" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="379" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="418" parentId="Menus" symbolId="MainMenu" type="class"/>
+<dataEntry offset="465" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="496" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="535" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="566" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="629" parentId="globals" symbolId="AppDelegate" type="class"/>
+<dataEntry offset="684" parentId="globals" symbolId="CprAppMain" type="class"/>
+<dataEntry offset="755" parentId="globals" symbolId="AppView" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" name="initialize" parent="cpr_appView">
+<functionEntry accessMode="public" name="initialize" parent="AppView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="cpr_appView">
+<functionEntry accessMode="public" name="onLayout" parent="AppView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onShow" parent="cpr_appView">
+<functionEntry accessMode="public" name="onShow" parent="AppView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onUpdate" parent="cpr_appView">
+<functionEntry accessMode="public" name="onUpdate" parent="AppView">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onHide" parent="cpr_appView">
+<functionEntry accessMode="public" name="onHide" parent="AppView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="cpr_appDelegate">
+<functionEntry accessMode="public" name="initialize" parent="AppMenuDelegate">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onMenu" parent="cpr_appDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="cpr_appMenuDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onMenuItem" parent="cpr_appMenuDelegate">
+<functionEntry accessMode="public" name="onMenuItem" parent="AppMenuDelegate">
 <param id="item"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="cpr_appApp">
+<functionEntry accessMode="public" name="initialize" parent="CprAppMain">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onStart" parent="cpr_appApp">
+<functionEntry accessMode="public" name="onStart" parent="CprAppMain">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="onStop" parent="cpr_appApp">
+<functionEntry accessMode="public" name="onStop" parent="CprAppMain">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="getInitialView" parent="cpr_appApp">
+<functionEntry accessMode="public" name="getInitialView" parent="CprAppMain">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="AppDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onMenu" parent="AppDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
