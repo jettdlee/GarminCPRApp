@@ -3,13 +3,11 @@ using Toybox.WatchUi;
 class AppView extends WatchUi.View {
 
     function initialize() {
-    	System.println("Initialize view");
         View.initialize();
     }
 
     // Load your resources here
     function onLayout(dc) {
-    	System.println("dc: "+dc);
     	var mainLayout = Rez.Layouts.MainLayout(dc);
         setLayout(mainLayout);
     }
@@ -31,5 +29,4 @@ class AppView extends WatchUi.View {
     // memory.
     function onHide() {
     }
-
 }
