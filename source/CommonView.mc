@@ -1,9 +1,13 @@
 using Toybox.WatchUi;
 using Toybox.Graphics as Gfx;
+using Toybox.Timer;
 
-class CommonLogicView extends WatchUi.View {
+class CommonView extends WatchUi.View {
 
-	function initialize() {
+  var controller;
+
+	function initialize(ctrl) {
+    controller = ctrl;
 		View.initialize();
 	}
 
@@ -18,11 +22,8 @@ class CommonLogicView extends WatchUi.View {
 	// loading resources into memory.
 	function onShow() {
 	}
-
 	// Update the view
 	function onUpdate(dc) {
-		dc.setColor(Gfx.COLOR_RED, Gfx.COLOR_BLACK);
-		dc.fillCircle(50,100,70);
 		// Call the parent onUpdate function to redraw the layout
 		View.onUpdate(dc);
 	}

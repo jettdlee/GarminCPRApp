@@ -9,9 +9,9 @@ class CprAppMain extends Application.AppBase {
   function initialize() {
     AppBase.initialize();
 
-    _view = new DeviceView();
-    _delegate = new AppDelegate();
-    _controller = new CprAppController();
+    _controller = new MainController();
+    _view = new DeviceView(_controller);
+    _delegate = new MainDelegate(_controller);
   }
 
   // onStart() is called on application start up

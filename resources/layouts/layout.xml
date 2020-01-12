@@ -1,4 +1,9 @@
-<layout id="MainLayout">
-    <label
-        x="center" y="50%" text="@Strings.prompt" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER" />
-</layout>
+<resources>
+  <layout id="MainLayout">
+    <label x="center" y="50%" font="Graphics.FONT_SMALL" text="@Strings.prompt" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTER" />
+  </layout>
+  <layout id="StoppedLayout">
+    <label x="centre" y="30%" font="Graphics.FONT_SMALL" text="@String.StoppedMessage" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTRE" />
+    <label x="centre" y="60%" font="Graphics.FONT_SMALL" text="@String.StoppedReset" color="Graphics.COLOR_RED" justification="Graphics.TEXT_JUSTIFY_CENTRE" />
+  </layout>
+</resources>
