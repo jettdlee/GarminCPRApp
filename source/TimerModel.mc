@@ -8,21 +8,22 @@ class TimerModel {
   const DEFAULT_DURATION = 1000;
   const DEFAULT_STRENGTH = 25;
   
-  var _timer = new Timer.Timer();
+  var timer;
   var vibrationDuration;
   var vibrationStrength;
 
   function initialize(duration, strength) {
+    timer = new Timer.Timer();
     vibrationDuration = duration || DEFAULT_DURATION;
-    vibrationStrength = strentgh || DEFAULT_STRENGTH;
+    vibrationStrength = strength || DEFAULT_STRENGTH;
   }
 
   function start() {
-    _timer.start(method(:timerCallback), TIMER_TIME, TIMER_REPEAT);
+    timer.start(method(:timerCallback), TIMER_TIME, TIMER_REPEAT);
   }
 
   function stop() {
-    _timer.stop();
+    timer.stop();
   }
 
   function timerCallback() {

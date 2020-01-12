@@ -1,4 +1,4 @@
-using Toybox.WatchUi as WatchUi
+using Toybox.WatchUi as WatchUi;
 
 class MainController {
 

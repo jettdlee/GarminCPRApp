@@ -1,9 +1,9 @@
 using Toybox.WatchUi as Ui;
 
-class StoppedDelegate extends Ui.BehaviourDelegate{
+class StoppedDelegate extends Ui.BehaviorDelegate{
 
   function initialize() {
-    BehaviourDelegate.initialize();
+    BehaviorDelegate.initialize();
   }
 
   function onSelect() {

@@ -1,18 +1,25 @@
-using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
 
-class MainDelegate extends WatchUi.InputDelegate {
+class MainDelegate extends Ui.InputDelegate {
 
-	private const UP_ACTION = WatchUi.SLIDE_UP;
-  private var _mainMenu;
-  private var _menuDelegate;
+  var controller;
+  private var started;
 
-  function initialize() {
+  function initialize(ctrl) {
+    controller = ctrl;
     InputDelegate.initialize();
-    _menuDelegate = new MenuDelegate();
   }
 
-  function onMenu() {
-    WatchUi.pushView(_mainMenu, _menuDelegate, UP_ACTION);
-    return true;
+  function onKey(evt) {
+    if(startAction(evt)) {
+      started = true;
+      controller.onStart;
+    } else {
+      return InputDelegate.onKey(evt);
+    }
+  }
+
+  function startAction(evt) {
+    return evt.getKey() == Ui.KEY_ENTER && !started;  
   }
 }
