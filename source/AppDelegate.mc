@@ -4,16 +4,15 @@ class AppDelegate extends WatchUi.BehaviorDelegate {
 
 	private var upAction = WatchUi.SLIDE_UP;
 
-    function initialize() {
-        BehaviorDelegate.initialize();
-    }
+  function initialize() {
+    BehaviorDelegate.initialize();
+  }
 
-    function onMenu() {
-    	var mainMenu = new Rez.Menus.MainMenu();
-    	var appMenuDelegate = new AppMenuDelegate();
+  function onMenu() {
+    var mainMenu = new Rez.Menus.MainMenu();
+    var appMenuDelegate = new AppMenuDelegate();
     	
-        WatchUi.pushView(mainMenu, appMenuDelegate, upAction);
-        return true;
-    }
-
+    WatchUi.pushView(mainMenu, appMenuDelegate, upAction);
+    return true;
+  }
 }
