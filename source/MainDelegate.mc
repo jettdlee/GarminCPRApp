@@ -3,7 +3,7 @@ using Toybox.WatchUi as Ui;
 class MainDelegate extends Ui.InputDelegate {
 
   hidden var _model;
-  hidden var started;
+  hidden var started = false;
 
   function initialize(mdl) {
     _model = mdl;
@@ -11,17 +11,17 @@ class MainDelegate extends Ui.InputDelegate {
   }
 
   function onKey(evt) {
-    // if(evt.getKey() == Ui.KEY_ENTER && !started) {
-    // if(startAction(evt)) {
-      _model.start();
-      started = true;
+    if(evt.getKey() == Ui.KEY_ENTER) {
+      if(!started) {
+        _model.start();
+        started = true;
+      } else {
+        _model.stop();
+        started = false;
+      }
       return true;
-    // } else {
-      // return InputDelegate.onKey(evt);
-    // }
-  }
-
-  function startAction(evt) {
-    return evt.getKey() == Ui.KEY_ENTER && !started;  
+    } else {
+      return InputDelegate.onKey(evt);
+    }
   }
 }
