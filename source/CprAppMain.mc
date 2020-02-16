@@ -4,29 +4,24 @@ class CprAppMain extends Application.AppBase {
 
   private var _view;
   private var _delegate;
-  private var _controller;
+  private var _model;
 
   function initialize() {
     AppBase.initialize();
-
-    _controller = new MainController();
-    _view = new DeviceView(_controller);
-    _delegate = new MainDelegate(_controller);
-  }
-
-  // onStart() is called on application start up
-  function onStart(state) {
-    _controller.onStart();
+    _model = new TimerModel();
+    _view = new DeviceView(_model);
+    _delegate = new MainDelegate(_model);
   }
 
   // onStop() is called when your application is exiting
   function onStop(state) {
-    _controller.onStop();
+    // if (_model.session.isRecording()) {
+    //   var result = _model.session.stop() && _model.session.discard();
+    // }
   }
 
   // Return the initial view of your application here
   function getInitialView() {
     return [_view, _delegate];
   }
-
 }

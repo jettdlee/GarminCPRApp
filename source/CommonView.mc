@@ -4,10 +4,10 @@ using Toybox.Timer;
 
 class CommonView extends WatchUi.View {
 
-  var controller;
+  var _model;
 
-	function initialize(ctrl) {
-    controller = ctrl;
+	function initialize(mdl) {
+    _model = mdl;
 		View.initialize();
 	}
 
@@ -26,7 +26,10 @@ class CommonView extends WatchUi.View {
 	// Update the view
 	function onUpdate(dc) {
 		// Call the parent onUpdate function to redraw the layout
-		View.onUpdate(dc);
+		// View.onUpdate(dc);
+    dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
+    dc.clear();
+    dc.drawText(watchWidth(dc), watchHeight(dc), Graphics.FONT_LARGE, "test", Graphics.TEXT_JUSTIFY_CENTER);
 	}
 
 	// Called when this View is removed from the screen. Save the
@@ -34,4 +37,12 @@ class CommonView extends WatchUi.View {
 	// memory.
 	function onHide() {
 	}
+
+  function watchWidth(dc) {
+    return dc.getWidth() / 2;
+  } 
+
+  function watchHeight(dc) {
+    return dc.getHeight() / 2;
+  }
 }

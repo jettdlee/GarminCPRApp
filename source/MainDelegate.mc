@@ -2,18 +2,19 @@ using Toybox.WatchUi as Ui;
 
 class MainDelegate extends Ui.InputDelegate {
 
-  var controller;
+  hidden var _model;
   private var started;
 
-  function initialize(ctrl) {
-    controller = ctrl;
+  function initialize(mdl) {
+    _model = mdl;
     InputDelegate.initialize();
   }
 
   function onKey(evt) {
     if(startAction(evt)) {
       started = true;
-      controller.onStart;
+      _model.start;
+      return true;
     } else {
       return InputDelegate.onKey(evt);
     }

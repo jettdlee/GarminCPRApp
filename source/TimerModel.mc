@@ -1,5 +1,6 @@
 using Toybox.Timer as Timer;
 using Toybox.Attention as Attention;
+using Toybox.WatchUi;
 
 class TimerModel {
 
