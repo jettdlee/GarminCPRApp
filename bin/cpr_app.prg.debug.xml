@@ -6,206 +6,134 @@
 <entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainController.mc" id="4" lineNum="12" pc="268435465" symbol="onStart"/>
 <entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainController.mc" id="5" lineNum="15" pc="268435484" symbol="onStop"/>
 <entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainController.mc" id="5" lineNum="16" pc="268435488" symbol="onStop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="7" lineNum="5" pc="268435507" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="7" lineNum="6" pc="268435511" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="8" lineNum="9" pc="268435530" symbol="onSelect"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="8" lineNum="10" pc="268435534" symbol="onSelect"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="8" lineNum="11" pc="268435558" symbol="onSelect"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="8" lineNum="12" pc="268435590" symbol="onSelect"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="8" lineNum="13" pc="268435622" symbol="onSelect"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedDelegate.mc" id="8" lineNum="14" pc="268435654" symbol="onSelect"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="10" lineNum="9" pc="268435658" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="10" lineNum="10" pc="268435662" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="10" lineNum="11" pc="268435672" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="11" lineNum="15" pc="268435691" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="11" lineNum="16" pc="268435695" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="11" lineNum="17" pc="268435722" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="12" lineNum="23" pc="268435737" symbol="onShow"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="13" lineNum="26" pc="268435742" symbol="onUpdate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="13" lineNum="28" pc="268435746" symbol="onUpdate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="14" lineNum="34" pc="268435767" symbol="onHide"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="16" lineNum="6" pc="268435772" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="16" lineNum="7" pc="268435776" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="17" lineNum="10" pc="268435795" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="17" lineNum="11" pc="268435799" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="17" lineNum="12" pc="268435810" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="17" lineNum="13" pc="268435834" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MenuDelegate.mc" id="17" lineNum="14" pc="268435845" symbol="onMenuItem"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedView.mc" id="19" lineNum="5" pc="268435870" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedView.mc" id="19" lineNum="6" pc="268435874" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedView.mc" id="20" lineNum="9" pc="268435893" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\StoppedView.mc" id="20" lineNum="10" pc="268435897" symbol="onLayout"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="22" lineNum="8" pc="268435935" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="22" lineNum="9" pc="268435939" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="22" lineNum="10" pc="268435949" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="23" lineNum="13" pc="268435968" symbol="onKey"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="23" lineNum="14" pc="268435972" symbol="onKey"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="23" lineNum="15" pc="268435988" symbol="onKey"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="23" lineNum="16" pc="268435998" symbol="onKey"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="23" lineNum="18" pc="268436016" symbol="onKey"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="24" lineNum="22" pc="268436037" symbol="startAction"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="24" lineNum="23" pc="268436041" symbol="startAction"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="26" lineNum="15" pc="268436082" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="26" lineNum="16" pc="268436086" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="26" lineNum="17" pc="268436120" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="26" lineNum="18" pc="268436144" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="27" lineNum="21" pc="268436169" symbol="start"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="27" lineNum="22" pc="268436173" symbol="start"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="28" lineNum="25" pc="268436224" symbol="stop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="28" lineNum="26" pc="268436228" symbol="stop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="29" lineNum="29" pc="268436247" symbol="timerCallback"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="29" lineNum="30" pc="268436251" symbol="timerCallback"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="30" lineNum="33" pc="268436270" symbol="vibrate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="30" lineNum="34" pc="268436274" symbol="vibrate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="30" lineNum="35" pc="268436318" symbol="vibrate"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source-vivoactive\\Vivoactive.mc" id="32" lineNum="3" pc="268436351" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source-vivoactive\\Vivoactive.mc" id="32" lineNum="4" pc="268436355" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="34" lineNum="9" pc="268436376" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="34" lineNum="10" pc="268436380" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="34" lineNum="12" pc="268436398" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="34" lineNum="13" pc="268436428" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="34" lineNum="14" pc="268436466" symbol="initialize"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="35" lineNum="18" pc="268436505" symbol="onStart"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="35" lineNum="19" pc="268436509" symbol="onStart"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="36" lineNum="23" pc="268436528" symbol="onStop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="36" lineNum="24" pc="268436532" symbol="onStop"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="37" lineNum="28" pc="268436551" symbol="getInitialView"/>
-<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="37" lineNum="29" pc="268436555" symbol="getInitialView"/>
-<entry filename="Rez" id="43" lineNum="15" pc="268436595" symbol="MainLayout"/>
-<entry filename="Rez" id="43" lineNum="18" pc="268436607" symbol="MainLayout"/>
-<entry filename="Rez" id="43" lineNum="20" pc="268436783" symbol="MainLayout"/>
-<entry filename="Rez" id="44" lineNum="29" pc="268436801" symbol="StoppedLayout"/>
-<entry filename="Rez" id="44" lineNum="31" pc="268436813" symbol="StoppedLayout"/>
-<entry filename="Rez" id="44" lineNum="32" pc="268436826" symbol="StoppedLayout"/>
-<entry filename="Rez" id="44" lineNum="34" pc="268436839" symbol="StoppedLayout"/>
-<entry filename="Rez" id="44" lineNum="35" pc="268436997" symbol="StoppedLayout"/>
-<entry filename="Rez" id="44" lineNum="37" pc="268437155" symbol="StoppedLayout"/>
-<entry filename="Rez" id="47" lineNum="50" pc="268437183" symbol="initialize"/>
-<entry filename="Rez" id="47" lineNum="51" pc="268437187" symbol="initialize"/>
-<entry filename="Rez" id="47" lineNum="52" pc="268437205" symbol="initialize"/>
-<entry filename="Rez" id="47" lineNum="53" pc="268437261" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="7" lineNum="9" pc="268435507" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="7" lineNum="10" pc="268435511" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="7" lineNum="11" pc="268435521" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="8" lineNum="15" pc="268435540" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="8" lineNum="16" pc="268435544" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="8" lineNum="17" pc="268435571" symbol="onLayout"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="9" lineNum="23" pc="268435586" symbol="onShow"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="10" lineNum="27" pc="268435591" symbol="onUpdate"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="10" lineNum="29" pc="268435595" symbol="onUpdate"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CommonView.mc" id="11" lineNum="35" pc="268435616" symbol="onHide"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="13" lineNum="8" pc="268435621" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="13" lineNum="9" pc="268435625" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="13" lineNum="10" pc="268435635" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="14" lineNum="13" pc="268435654" symbol="onKey"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="14" lineNum="14" pc="268435658" symbol="onKey"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="14" lineNum="15" pc="268435674" symbol="onKey"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="14" lineNum="16" pc="268435684" symbol="onKey"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="14" lineNum="18" pc="268435702" symbol="onKey"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="15" lineNum="22" pc="268435723" symbol="startAction"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\MainDelegate.mc" id="15" lineNum="23" pc="268435727" symbol="startAction"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="17" lineNum="9" pc="268435768" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="17" lineNum="10" pc="268435772" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="18" lineNum="13" pc="268435807" symbol="start"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="18" lineNum="14" pc="268435811" symbol="start"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="19" lineNum="17" pc="268435853" symbol="stop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="19" lineNum="18" pc="268435857" symbol="stop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="20" lineNum="21" pc="268435876" symbol="timerCallback"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="20" lineNum="22" pc="268435880" symbol="timerCallback"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\TimerModel.mc" id="20" lineNum="23" pc="268435899" symbol="timerCallback"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source-vivoactive\\Vivoactive.mc" id="22" lineNum="3" pc="268435918" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source-vivoactive\\Vivoactive.mc" id="22" lineNum="4" pc="268435922" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="24" lineNum="9" pc="268435943" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="24" lineNum="10" pc="268435947" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="24" lineNum="12" pc="268435965" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="24" lineNum="13" pc="268435995" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="24" lineNum="14" pc="268436033" symbol="initialize"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="25" lineNum="18" pc="268436072" symbol="onStart"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="25" lineNum="19" pc="268436076" symbol="onStart"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="26" lineNum="23" pc="268436095" symbol="onStop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="26" lineNum="24" pc="268436099" symbol="onStop"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="27" lineNum="28" pc="268436118" symbol="getInitialView"/>
+<entry filename="C:\\Users\\User\\Documents\\Git\\cpr_app\\source\\CprAppMain.mc" id="27" lineNum="29" pc="268436122" symbol="getInitialView"/>
+<entry filename="Rez" id="33" lineNum="15" pc="268436162" symbol="MainLayout"/>
+<entry filename="Rez" id="33" lineNum="17" pc="268436174" symbol="MainLayout"/>
+<entry filename="Rez" id="33" lineNum="19" pc="268436326" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388698" method="true" symbol="start"/>
-<entry id="8388644" module="true" symbol="System"/>
-<entry id="8388987" method="true" symbol="vibrate"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry id="8389349" symbol="justification"/>
-<entry field="true" id="18" symbol="&lt;globals/CprAppMain/&lt;&gt;_view&gt;"/>
-<entry field="true" id="46" symbol="paused"/>
+<entry field="true" id="26" symbol="&lt;globals/CprAppMain/&lt;&gt;_view&gt;"/>
+<entry field="true" id="23" symbol="paused"/>
 <entry id="8389097" method="true" symbol="onKey"/>
-<entry field="true" id="43" symbol="controller"/>
+<entry field="true" id="15" symbol="controller"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="32" object="true" symbol="MainMenu"/>
-<entry id="8389619" method="true" symbol="onSelect"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="33" method="true" symbol="MainLayout"/>
+<entry id="19" method="true" symbol="MainLayout"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
-<entry field="true" id="36" symbol="StoppedReset"/>
 <entry id="8388636" module="true" symbol="Attention"/>
-<entry field="true" id="25" symbol="timer"/>
+<entry field="true" id="22" symbol="timer"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry id="9" object="true" symbol="MainController"/>
-<entry field="true" id="42" symbol="AppName"/>
-<entry field="true" id="35" symbol="breath"/>
-<entry id="13" object="true" symbol="StoppedView"/>
-<entry id="17" object="true" symbol="CprAppMain"/>
-<entry field="true" id="22" symbol="TIMER_REPEAT"/>
-<entry id="49" symbol="item_2"/>
-<entry id="48" symbol="item_1"/>
-<entry field="true" id="31" symbol="LauncherIcon"/>
+<entry field="true" id="21" symbol="AppName"/>
+<entry id="14" object="true" symbol="CprAppMain"/>
+<entry field="true" id="18" symbol="LauncherIcon"/>
 <entry id="8388646" module="true" object="true" symbol="Timer"/>
-<entry field="true" id="39" symbol="menu_label_2"/>
-<entry field="true" id="38" symbol="menu_label_1"/>
-<entry field="true" id="26" symbol="vibrationDuration"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="14" object="true" symbol="MainDelegate"/>
-<entry id="10" object="true" symbol="StoppedDelegate"/>
+<entry id="11" object="true" symbol="MainDelegate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry field="true" id="20" symbol="&lt;globals/CprAppMain/&lt;&gt;_controller&gt;"/>
+<entry field="true" id="28" symbol="&lt;globals/CprAppMain/&lt;&gt;_controller&gt;"/>
+<entry field="true" id="24" symbol="myCount"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389348" symbol="font"/>
-<entry id="16" object="true" symbol="DeviceView"/>
+<entry id="13" object="true" symbol="DeviceView"/>
 <entry id="8389347" symbol="color"/>
-<entry field="true" id="19" symbol="&lt;globals/CprAppMain/&lt;&gt;_delegate&gt;"/>
-<entry id="8389109" method="true" symbol="onMenuItem"/>
-<entry id="45" method="true" symbol="startAction"/>
-<entry id="15" object="true" symbol="TimerModel"/>
-<entry id="29" module="true" symbol="Layouts"/>
-<entry field="true" id="40" symbol="StoppedMessage"/>
-<entry field="true" id="41" symbol="prompt"/>
+<entry field="true" id="27" symbol="&lt;globals/CprAppMain/&lt;&gt;_delegate&gt;"/>
+<entry id="30" method="true" symbol="startAction"/>
+<entry id="12" object="true" symbol="TimerModel"/>
+<entry id="16" module="true" symbol="Layouts"/>
+<entry field="true" id="20" symbol="prompt"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry id="11" object="true" symbol="CommonView"/>
+<entry id="10" object="true" symbol="CommonView"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry id="28" method="true" symbol="timerCallback"/>
+<entry id="25" method="true" symbol="timerCallback"/>
 <entry id="8389346" symbol="text"/>
-<entry field="true" id="27" symbol="vibrationStrength"/>
-<entry field="true" id="23" symbol="DEFAULT_DURATION"/>
-<entry id="30" module="true" symbol="Menus"/>
-<entry id="12" object="true" symbol="MenuDelegate"/>
-<entry field="true" id="24" symbol="DEFAULT_STRENGTH"/>
-<entry field="true" id="37" symbol="compress"/>
-<entry id="34" method="true" symbol="StoppedLayout"/>
+<entry id="17" module="true" symbol="Menus"/>
 <entry id="8388699" method="true" symbol="stop"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="44" symbol="&lt;globals/MainDelegate/&lt;&gt;started&gt;"/>
+<entry field="true" id="29" symbol="&lt;globals/MainDelegate/&lt;&gt;started&gt;"/>
 <entry id="8388635" module="true" symbol="Application"/>
-<entry field="true" id="21" symbol="TIMER_TIME"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435657" name="view" stackId="2" startPc="268435534"/>
-<entry endPc="268435657" name="controller" stackId="1" startPc="268435534"/>
-<entry endPc="268435657" name="delegate" stackId="3" startPc="268435534"/>
-<entry endPc="268435691" name="ctrl" stackId="1" startPc="268435658"/>
-<entry endPc="268435736" name="mainLayout" stackId="2" startPc="268435695"/>
-<entry endPc="268435737" name="dc" stackId="1" startPc="268435691"/>
-<entry endPc="268435767" name="dc" stackId="1" startPc="268435742"/>
-<entry endPc="268435870" name="item" stackId="1" startPc="268435795"/>
-<entry endPc="268435935" name="dc" stackId="1" startPc="268435893"/>
-<entry endPc="268435968" name="ctrl" stackId="1" startPc="268435935"/>
-<entry endPc="268436037" name="evt" stackId="1" startPc="268435968"/>
-<entry endPc="268436082" name="evt" stackId="1" startPc="268436037"/>
-<entry endPc="268436169" name="duration" stackId="1" startPc="268436082"/>
-<entry endPc="268436169" name="strength" stackId="2" startPc="268436082"/>
-<entry endPc="268436350" name="vibeProfile" stackId="1" startPc="268436274"/>
-<entry endPc="268436376" name="ctrl" stackId="1" startPc="268436351"/>
-<entry endPc="268436528" name="state" stackId="1" startPc="268436505"/>
-<entry endPc="268436551" name="state" stackId="1" startPc="268436528"/>
-<entry endPc="268436800" name="rez_cmp_local_text_1639678292" stackId="2" startPc="268436607"/>
-<entry endPc="268436801" name="dc" stackId="1" startPc="268436595"/>
-<entry endPc="268437182" name="rez_cmp_local_text_6446502391" stackId="5" startPc="268436813"/>
-<entry endPc="268437182" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268436813"/>
-<entry endPc="268437182" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268436813"/>
-<entry endPc="268437182" name="rez_cmp_local_text_1064357695" stackId="4" startPc="268436813"/>
-<entry endPc="268437183" name="dc" stackId="1" startPc="268436801"/>
+<entry endPc="268435540" name="ctrl" stackId="1" startPc="268435507"/>
+<entry endPc="268435585" name="mainLayout" stackId="2" startPc="268435544"/>
+<entry endPc="268435586" name="dc" stackId="1" startPc="268435540"/>
+<entry endPc="268435616" name="dc" stackId="1" startPc="268435591"/>
+<entry endPc="268435654" name="ctrl" stackId="1" startPc="268435621"/>
+<entry endPc="268435723" name="evt" stackId="1" startPc="268435654"/>
+<entry endPc="268435768" name="evt" stackId="1" startPc="268435723"/>
+<entry endPc="268435943" name="ctrl" stackId="1" startPc="268435918"/>
+<entry endPc="268436095" name="state" stackId="1" startPc="268436072"/>
+<entry endPc="268436118" name="state" stackId="1" startPc="268436095"/>
+<entry endPc="268436343" name="rez_cmp_local_text_1593326724" stackId="2" startPc="268436174"/>
+<entry endPc="268436344" name="dc" stackId="1" startPc="268436162"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
 <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry offset="278" parentId="globals" symbolId="CprAppMain" type="class"/>
-<dataEntry offset="373" parentId="globals" symbolId="StoppedView" type="class"/>
-<dataEntry offset="428" parentId="globals" symbolId="DeviceView" type="class"/>
-<dataEntry offset="475" parentId="globals" symbolId="TimerModel" type="class"/>
-<dataEntry offset="610" parentId="globals" symbolId="StoppedDelegate" type="class"/>
-<dataEntry offset="665" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry offset="744" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry offset="783" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry offset="822" parentId="Menus" symbolId="MainMenu" type="class"/>
-<dataEntry offset="869" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry offset="900" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry offset="947" parentId="Rez" symbolId="JsonData" type="module"/>
-<dataEntry offset="978" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="1073" parentId="globals" symbolId="CommonView" type="class"/>
-<dataEntry offset="1160" parentId="globals" symbolId="MenuDelegate" type="class"/>
-<dataEntry offset="1215" parentId="globals" symbolId="MainDelegate" type="class"/>
-<dataEntry offset="1294" parentId="globals" symbolId="MainController" type="class"/>
+<dataEntry offset="230" parentId="globals" symbolId="CommonView" type="class"/>
+<dataEntry offset="317" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="396" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="435" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="466" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="497" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="536" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="567" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="614" parentId="globals" symbolId="MainController" type="class"/>
+<dataEntry offset="693" parentId="globals" symbolId="TimerModel" type="class"/>
+<dataEntry offset="780" parentId="globals" symbolId="CprAppMain" type="class"/>
+<dataEntry offset="875" parentId="globals" symbolId="MainDelegate" type="class"/>
+<dataEntry offset="954" parentId="globals" symbolId="DeviceView" type="class"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" name="initialize" parent="MainController">
@@ -215,12 +143,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onStop" parent="MainController">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="StoppedDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onSelect" parent="StoppedDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="CommonView">
@@ -241,20 +163,6 @@
 <functionEntry accessMode="public" name="onHide" parent="CommonView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="MenuDelegate">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onMenuItem" parent="MenuDelegate">
-<param id="item"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="StoppedView">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="onLayout" parent="StoppedView">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="MainDelegate">
 <param id="ctrl"/>
 <documentation/>
@@ -268,8 +176,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="TimerModel">
-<param id="duration"/>
-<param id="strength"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="start" parent="TimerModel">
@@ -279,9 +185,6 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="timerCallback" parent="TimerModel">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="vibrate" parent="TimerModel">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="DeviceView">
@@ -304,13 +207,6 @@
 </functionEntry>
 <functionEntry accessMode="public" name="MainLayout" parent="Layouts">
 <param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="StoppedLayout" parent="Layouts">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="initialize" parent="MainMenu">
 <documentation/>
 </functionEntry>
 </functions>

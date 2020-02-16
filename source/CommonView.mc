@@ -22,6 +22,7 @@ class CommonView extends WatchUi.View {
 	// loading resources into memory.
 	function onShow() {
 	}
+
 	// Update the view
 	function onUpdate(dc) {
 		// Call the parent onUpdate function to redraw the layout
@@ -33,23 +34,4 @@ class CommonView extends WatchUi.View {
 	// memory.
 	function onHide() {
 	}
-
-	// // this is called whenever the screen needs to be updated
-	// function onUpdate(dc) {
-	//     // Common update of the screen: Clear the screen with the backgroundcolor.
-	//     clearScreen(dc);
-
-	//     // We can also do common calculations here, in this case we'll just get the current time
-	//     determineClockTime();
-	// }
-
-	// // clears the screen and stores the width & height in global variables
-	// function clearScreen(dc) {
-	//     ...
-	// }
-
-	// function determineClockTime() {
-	//     ...
-	// }
-
 }

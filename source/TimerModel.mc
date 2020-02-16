@@ -3,23 +3,15 @@ using Toybox.Attention as Attention;
 
 class TimerModel {
 
-  const TIMER_TIME = 500;
-  const TIMER_REPEAT = true;
-  const DEFAULT_DURATION = 1000;
-  const DEFAULT_STRENGTH = 25;
-  
   var timer;
-  var vibrationDuration;
-  var vibrationStrength;
+  var myCount = 0;
 
-  function initialize(duration, strength) {
+  function initialize() {
     timer = new Timer.Timer();
-    vibrationDuration = duration || DEFAULT_DURATION;
-    vibrationStrength = strength || DEFAULT_STRENGTH;
   }
 
   function start() {
-    timer.start(method(:timerCallback), TIMER_TIME, TIMER_REPEAT);
+    timer.start(method(:timerCallback), 1000, true);
   }
 
   function stop() {
@@ -27,11 +19,7 @@ class TimerModel {
   }
 
   function timerCallback() {
+    myCount += 1;
     WatchUi.requestUpdate();
-  }
-
-  function vibrate(){
-    var vibeProfile = new Attention.VibeProfile(vibrationStrength, vibrationDuration);
-    Attention.vibrate([vibeProfile]);
   }
 }
