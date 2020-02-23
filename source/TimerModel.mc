@@ -1,45 +1,56 @@
 using Toybox.Timer as Timer;
-using Toybox.Attention as Attention;
 using Toybox.WatchUi;
-using Toybox.Math;
 
 class TimerModel {
 
-  var timer;
+  const TEMPO = 100;
+  const BEATS_PER_MIN = 60.0 / TEMPO;
+  const TIMER_RATE = 200; // ms, global rate that will reach both the time and BPM 
+  const ONE_SECOND = 1000;
+
   var globalCount = 0;
+  var timerCount = 0;
+
+  hidden var vibrationModel = new VibrationModel();
+  hidden var timer = new Timer.Timer();
+  hidden var timeFormatModel = new TimeFormatModel();
 
   function initialize() {
-    timer = new Timer.Timer();
   }
 
   function start() {
-    // 1000 is for seconds, 1 for testing
-    timer.start(method(:timerCallback), 1, true);
+    timer.start(
+      method(:timerCallback),
+      TIMER_RATE,
+      true
+    );
   }
 
   function stop() {
     timer.stop();
   }
 
+  function getTimeString() {
+    return timeFormatModel.formatTime(timerCount);
+  }
+
   function timerCallback() {
     globalCount += 1;
+    addTimerCount();
+    vibrateOnBPM();
     WatchUi.requestUpdate();
   }
 
-  function getTimeString() {
-    var hours = (globalCount / 3600).toNumber();
-    var minutes = ((globalCount - hours * 3600) / 60).toNumber();
-    var seconds = globalCount - hours * 3600 - minutes * 60;
-    return formatTimeString(hours, minutes, seconds);
+  function addTimerCount() {
+    if ((globalCount * TIMER_RATE) % ONE_SECOND == 0) { 
+      timerCount += 1;
+    }
   }
 
-  function formatTimeString(hours, minutes, seconds) {
-    return Lang.format(
-      "$1$:$2$:$3$", [
-        hours.format("%02d"),
-        minutes.format("%02d"),
-        seconds.format("%02d")
-      ]
-    );
+  function vibrateOnBPM(){
+    var countsForBeat = (BEATS_PER_MIN * (ONE_SECOND / TIMER_RATE)).toNumber();
+    if (globalCount % countsForBeat == 0) {
+      vibrationModel.vibrate();
+    }
   }
 }

@@ -13,14 +13,9 @@ class CprAppMain extends Application.AppBase {
     _delegate = new MainDelegate(_model);
   }
 
-  // onStop() is called when your application is exiting
   function onStop(state) {
-    // if (_model.session.isRecording()) {
-    //   var result = _model.session.stop() && _model.session.discard();
-    // }
   }
 
-  // Return the initial view of your application here
   function getInitialView() {
     return [_view, _delegate];
   }
