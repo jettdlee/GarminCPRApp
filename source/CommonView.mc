@@ -29,7 +29,7 @@ class CommonView extends WatchUi.View {
 		// View.onUpdate(dc);
     dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
     dc.clear();
-    dc.drawText(watchWidth(dc), watchHeight(dc), Graphics.FONT_NUMBER_THAI_HOT, timeString(), Graphics.TEXT_JUSTIFY_CENTER);
+    dc.drawText(watchWidth(dc), watchHeight(dc), Graphics.FONT_MEDIUM, _model.getTimeString(), Graphics.TEXT_JUSTIFY_CENTER);
 	}
 
 	// Called when this View is removed from the screen. Save the
@@ -44,9 +44,5 @@ class CommonView extends WatchUi.View {
 
   function watchHeight(dc) {
     return dc.getHeight() / 2;
-  }
-
-  function timeString() {
-    return "0:" + _model.myCount.format("%02d");
   }
 }
