@@ -10,6 +10,7 @@ class TimerModel {
 
   var globalCount = 0;
   var timerCount = 0;
+  var showBeat = false;
 
   hidden var vibrationModel = new VibrationModel();
   hidden var timer = new Timer.Timer();
@@ -50,7 +51,10 @@ class TimerModel {
   function vibrateOnBPM(){
     var countsForBeat = (BEATS_PER_MIN * (ONE_SECOND / TIMER_RATE)).toNumber();
     if (globalCount % countsForBeat == 0) {
+      showBeat = true;
       vibrationModel.vibrate();
+    } else {
+      showBeat = false;
     }
   }
 }

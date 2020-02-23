@@ -28,6 +28,7 @@ class CommonView extends WatchUi.View {
     reloadDisplay(dc);
     drawInitialTime(dc);
     drawActiveTime(dc);
+    drawBeat(dc);
 	}
 
 	function onHide() {
@@ -40,18 +41,19 @@ class CommonView extends WatchUi.View {
 
   function drawInitialTime(dc){
     var formattedTime = timeFormatModel.clockFormat(initialTime.hour, initialTime.min, initialTime.sec);
-    drawText(dc, formattedTime, 0.1);
+    drawText(dc, "Started:", 0.1, Graphics.FONT_TINY);
+    drawText(dc, formattedTime, 0.2, Graphics.FONT_LARGE);
   }
 
   function drawActiveTime(dc){
-    drawText(dc, _model.getTimeString(), 0.5);
+    drawText(dc, _model.getTimeString(), 0.4, Graphics.FONT_NUMBER_MEDIUM);
   }
 
-  function drawText(dc, text, vertical_position) {
+  function drawText(dc, text, vertical_position, font_size) {
     dc.drawText(
       watchWidth(dc, 0.5),
       watchHeight(dc, vertical_position),
-      Graphics.FONT_LARGE,
+      font_size,
       text,
       Graphics.TEXT_JUSTIFY_CENTER
     );
@@ -63,5 +65,16 @@ class CommonView extends WatchUi.View {
 
   function watchHeight(dc, position_fraction) {
     return dc.getHeight() * position_fraction;
+  }
+
+  function drawBeat(dc){
+    if (_model.showBeat) { 
+      dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
+      dc.fillCircle(
+        watchWidth(dc, 0.5),
+        watchHeight(dc, 0.8),
+        20
+      );
+    }
   }
 }
