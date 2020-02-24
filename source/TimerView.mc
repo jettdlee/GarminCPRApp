@@ -20,7 +20,11 @@ class TimerView extends CommonView {
     reloadDisplay(dc);
     drawInitialTime(dc);
     drawActiveTime(dc);
-    drawBeat(dc);
+    if (model.started == false) {
+      drawStopped(dc);
+    } else {
+      drawBeat(dc);
+    }
 	}
 
 	function onHide() {
@@ -36,9 +40,14 @@ class TimerView extends CommonView {
       dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
       dc.fillCircle(
         watchWidth(dc, 0.5),
-        watchHeight(dc, 0.8),
+        watchHeight(dc, eventHeight),
         20
       );
     }
+  }
+
+  function drawStopped(dc){
+    dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+    drawText(dc, "Stopped", stoppedHeight, Graphics.FONT_MEDIUM);
   }
 }

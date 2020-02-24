@@ -13,6 +13,7 @@ class TimerModel {
   var timerCount = 0;
   var showBeat = false;
   var initialTime = Time.now();
+  var started = false;
 
   hidden var vibrationModel = new VibrationModel();
   hidden var timer = new Timer.Timer();
@@ -26,10 +27,14 @@ class TimerModel {
       TIMER_RATE,
       true
     );
+    started = true;
   }
 
   function stop() {
     timer.stop();
+    showBeat = false;
+    started = false;
+    WatchUi.requestUpdate();
   }
 
   function timerCallback() {

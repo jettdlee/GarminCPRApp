@@ -3,7 +3,6 @@ using Toybox.WatchUi as Ui;
 class MainDelegate extends Ui.InputDelegate {
 
   hidden var model;
-  hidden var started = false;
 
   function initialize(_model) {
     model = _model;
@@ -12,14 +11,10 @@ class MainDelegate extends Ui.InputDelegate {
 
   function onKey(evt) {
     if(evt.getKey() == Ui.KEY_ENTER) {
-      if(!started) {
+      if(!model.started) {
         model.start();
-        started = true;
-        Ui.switchToView(new TimerView(model), self, Ui.SLIDE_IMMEDIATE);
       } else {
         model.stop();
-        started = false;
-        Ui.switchToView(new StoppedView(model), self, Ui.SLIDE_IMMEDIATE);
       }
       return true;
     } else {
