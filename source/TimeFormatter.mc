@@ -1,4 +1,4 @@
-class TimeFormatModel {
+class TimeFormatter {
 
   function initialize(){
   }

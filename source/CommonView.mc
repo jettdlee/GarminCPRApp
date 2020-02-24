@@ -5,7 +5,7 @@ class CommonView extends WatchUi.View {
 
   var model;
 
-  hidden var timeFormatModel = new TimeFormatModel();
+  hidden var timeFormatter = new TimeFormatter();
 
   function initialize(_model) {
     model = _model;
@@ -32,13 +32,13 @@ class CommonView extends WatchUi.View {
 
   function drawInitialTime(dc){
     var initialTime = Gregorian.info(model.initialTime, Time.FORMAT_MEDIUM);
-    var formattedTime = timeFormatModel.clockFormat(initialTime.hour, initialTime.min, initialTime.sec);
+    var formattedTime = timeFormatter.clockFormat(initialTime.hour, initialTime.min, initialTime.sec);
     drawText(dc, "Started:", 0.1, Graphics.FONT_TINY);
     drawText(dc, formattedTime, 0.2, Graphics.FONT_LARGE);
   }
 
   function drawActiveTime(dc){
-    var formattedCount = timeFormatModel.formatTime(model.timerCount);
+    var formattedCount = timeFormatter.formatTime(model.timerCount);
     drawText(dc, formattedCount, 0.4, Graphics.FONT_NUMBER_MEDIUM);
   }
 
