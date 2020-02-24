@@ -7,18 +7,16 @@ using Toybox.Time.Gregorian;
 
 class CommonView extends WatchUi.View {
 
-  var _model;
+  var model;
   var initialTime = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
   hidden var timeFormatModel = new TimeFormatModel();
 
-	function initialize(mdl) {
-    _model = mdl;
+	function initialize(_model) {
+    model = _model;
 		View.initialize();
 	}
 
 	function onLayout(dc) {
-		var mainLayout = Rez.Layouts.MainLayout(dc);
-		setLayout(mainLayout);
 	}
 
 	function onShow() {
@@ -46,7 +44,7 @@ class CommonView extends WatchUi.View {
   }
 
   function drawActiveTime(dc){
-    drawText(dc, _model.getTimeString(), 0.4, Graphics.FONT_NUMBER_MEDIUM);
+    drawText(dc, model.getTimeString(), 0.4, Graphics.FONT_NUMBER_MEDIUM);
   }
 
   function drawText(dc, text, vertical_position, font_size) {
@@ -68,7 +66,7 @@ class CommonView extends WatchUi.View {
   }
 
   function drawBeat(dc){
-    if (_model.showBeat) { 
+    if (model.showBeat) { 
       dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_BLACK);
       dc.fillCircle(
         watchWidth(dc, 0.5),

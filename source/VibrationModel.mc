@@ -2,8 +2,8 @@ using Toybox.Attention as Attention;
 
 class VibrationModel {
 
-  const VIBRATION_STRENGTH = 10;
-  const VIBRATION_DURATION = 25;
+  const VIBRATION_STRENGTH = 50;
+  const VIBRATION_DURATION = 100;
 
   function initialize(){
   }
