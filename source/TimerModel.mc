@@ -1,5 +1,6 @@
 using Toybox.Timer as Timer;
 using Toybox.WatchUi;
+using Toybox.Time;
 
 class TimerModel {
 
@@ -11,10 +12,10 @@ class TimerModel {
   var globalCount = 0;
   var timerCount = 0;
   var showBeat = false;
+  var initialTime = Time.now();
 
   hidden var vibrationModel = new VibrationModel();
   hidden var timer = new Timer.Timer();
-  hidden var timeFormatModel = new TimeFormatModel();
 
   function initialize() {
   }
@@ -29,10 +30,6 @@ class TimerModel {
 
   function stop() {
     timer.stop();
-  }
-
-  function getTimeString() {
-    return timeFormatModel.formatTime(timerCount);
   }
 
   function timerCallback() {

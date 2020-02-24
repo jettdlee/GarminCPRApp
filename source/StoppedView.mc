@@ -1,6 +1,4 @@
-using Toybox.WatchUi;
-
-class StoppedView extends WatchUi.View {
+class StoppedView extends CommonView {
 
   var model;
 
@@ -11,5 +9,6 @@ class StoppedView extends WatchUi.View {
 
   function onLayout(dc) {
     setLayout(Rez.Layouts.StoppedLayout(dc));
+    drawInitialTime(dc);
   }
 }
