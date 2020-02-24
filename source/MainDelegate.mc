@@ -15,7 +15,7 @@ class MainDelegate extends Ui.InputDelegate {
       if(!started) {
         model.start();
         started = true;
-        Ui.switchToView(new CommonView(model), self, Ui.SLIDE_IMMEDIATE);
+        Ui.switchToView(new TimerView(model), self, Ui.SLIDE_IMMEDIATE);
       } else {
         model.stop();
         started = false;

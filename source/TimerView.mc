@@ -5,7 +5,7 @@ using Toybox.Time;
 using Toybox.Time.Gregorian;
 
 
-class CommonView extends WatchUi.View {
+class TimerView extends WatchUi.View {
 
   var model;
   var initialTime = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);

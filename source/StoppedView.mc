@@ -9,7 +9,6 @@ class StoppedView extends WatchUi.View {
     View.initialize();
   }
 
-
   function onLayout(dc) {
     setLayout(Rez.Layouts.StoppedLayout(dc));
   }
