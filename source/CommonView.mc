@@ -38,7 +38,7 @@ class CommonView extends WatchUi.View {
 
   function drawInitialTime(dc){
     drawText(dc, "Started:", initialTimeHeight, Graphics.FONT_TINY);
-    drawText(dc, formatInitialTime(), initialTimeHeight + 0.1, Graphics.FONT_LARGE);
+    drawText(dc, formatInitialTime(), initialTimeHeight + 0.1, Graphics.FONT_NUMBER_MILD);
   }
 
   function formatInitialTime() {

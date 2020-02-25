@@ -9,7 +9,7 @@ class CprAppMain extends Application.AppBase {
   function initialize() {
     AppBase.initialize();
     _model = new TimerModel();
-    _view = new StartView();
+    _view = new DeviceView();
     _delegate = new StartDelegate(_model);
   }
 
