@@ -1,5 +1,6 @@
 <strings>
   <string id="AppName">CPR Helper</string>
-  <string id="prompt">For fucks sake</string>
-  <string id="Stopped">Stopped</string>
+  <string id="oneCheck">1) Check</string>
+  <string id="twoCall">2) Call Help</string>
+  <string id="threeStart">3) Start</string>
 </strings>

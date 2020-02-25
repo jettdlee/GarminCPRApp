@@ -1,4 +1,7 @@
 <resources>
   <layout id="StartLayout">
+    <label text="@Strings.oneCheck" x="center" y="20%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.twoCall" x="center" y="43%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.threeStart" x="center" y="65%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
   </layout>
 </resources>
