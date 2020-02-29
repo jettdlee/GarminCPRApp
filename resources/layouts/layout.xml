@@ -1,7 +1,8 @@
 <resources>
   <layout id="StartLayout">
-    <label text="@Strings.oneCheck" x="center" y="20%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label text="@Strings.twoCall" x="center" y="43%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
-    <label text="@Strings.threeStart" x="center" y="65%" font="Gfx.FONT_LARGE" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.StepOne" x="center" y="20%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_RED" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.StepTwo" x="center" y="33%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_ORANGE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.StepThree" x="center" y="46%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_GREEN" justification="Gfx.TEXT_JUSTIFY_CENTER" />
+    <label text="@Strings.StepFour" x="center" y="59%" font="Gfx.FONT_SMALL" color="Gfx.COLOR_WHITE" justification="Gfx.TEXT_JUSTIFY_CENTER" />
   </layout>
 </resources>

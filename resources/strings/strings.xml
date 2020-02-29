@@ -1,6 +1,7 @@
 <strings>
-  <string id="AppName">CPR Helper</string>
-  <string id="oneCheck">1) Check</string>
-  <string id="twoCall">2) Call Help</string>
-  <string id="threeStart">3) Start</string>
+  <string id="AppName">CPR Metron</string>
+  <string id="StepOne">Shake and shout</string>
+  <string id="StepTwo">Check breathing</string>
+  <string id="StepThree">Call services</string>
+  <string id="StepFour">Start\nCompressions</string>
 </strings>
