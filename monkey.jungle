@@ -3,5 +3,13 @@ project.manifest = manifest.xml
 # fix autobuild to be a specific device
  
 # define the actual sourcePaths
-vivoactive.sourcePath=source;source-vivoactive
-fr735xt.sourcePath=source;source-semiround
+vivoactive_hr.resourcePath = $(vivoactive_hr.resourcePath);device_icons/40x33
+vivoactive3.resourcePath = $(vivoactive3.resourcePath);device_icons/40x33
+vivoactive3d.resourcePath = resources;device_icons/40x33
+vivoactive3m.resourcePath = resources;device_icons/40x33
+vivoactive3mlte.resourcePath = resources;device_icons/40x33
+
+fenix5s.resourcePath = resources;device_icons/36x36
+
+vivoactive4.resourcePath = resources;device_icons/35x35
+vivoactive4s.resourcePath = $(vivoactive4s.resourcePath);device_icons/30x30
